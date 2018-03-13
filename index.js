@@ -192,7 +192,11 @@ document.getElementById("roll").addEventListener("click",function(){
             }, 1000) 
         }
         rollNum++
-        document.getElementById("rollNumber").innerHTML = "Roll:"+rollNum; 
+        document.getElementById("rollNumber").innerHTML = "Roll:"+rollNum;
+        document.getElementById("roll").disabled = true;
+        setTimeout(function(){
+            document.getElementById("roll").disabled = false;
+        }, 1250)
     }
 });
 //Hold Buttons

@@ -7,14 +7,26 @@
     background-color: black;
 }
 
+#title {
+    width:50%;
+    height:15%;
+    top:25px;
+    left:500px;
+    right:0px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size:65px;
+    
+}
+
 #playArea {
     position: fixed;
-    height:90%;
-    width:55%;
-    top:0px;
-    bottom:0px;
+    height:70%;
+    width:50%;
+    bottom:15px;
     right:0px;
-    left:525px;
+    left:500px;
     margin:auto;
     background-color:forestgreen;
     border-radius: 75px;
@@ -25,7 +37,7 @@
 #scoreArea {
     position: fixed;
     height:90%;
-    width:33%;
+    width:30%;
     top:0px;
     bottom:0px;
     left:30px;
@@ -50,7 +62,7 @@
 }
 #holdBox{
     position: absolute;
-    bottom:175px;
+    bottom:125px;
     left: 0px;
     right:0px;
     margin: auto;
@@ -71,7 +83,7 @@
 
 #diceBox {
     position: absolute;
-    bottom: 250px;
+    bottom: 200px;
     left:0px;
     right:0px;
     margin: auto;
