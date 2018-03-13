@@ -9,12 +9,12 @@
 
 #playArea {
     position: fixed;
-    height:80%;
-    width:45%;
+    height:90%;
+    width:55%;
     top:0px;
     bottom:0px;
     right:0px;
-    left:200px;
+    left:525px;
     margin:auto;
     background-color:forestgreen;
     border-radius: 75px;
@@ -24,8 +24,8 @@
 
 #scoreArea {
     position: fixed;
-    height:80%;
-    width:27%;
+    height:90%;
+    width:33%;
     top:0px;
     bottom:0px;
     left:30px;
@@ -58,8 +58,8 @@
 }
 
 .dice {
-    height:80px;
-    width:80px;
+    height:65px;
+    width:66px;
     background-color: white;
     display: inline-block;
     margin: 20px;
@@ -82,7 +82,7 @@
 }
 
 #upper, #lower{
-    font-size:20px;
+    font-size:15px;
     text-align: center;
     width:100%;
 }
