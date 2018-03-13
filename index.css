@@ -1,0 +1,89 @@
+#display {
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    left:0px;
+    top:0px;
+    background-color: black;
+}
+
+#playArea {
+    position: fixed;
+    height:80%;
+    width:45%;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:200px;
+    margin:auto;
+    background-color:forestgreen;
+    border-radius: 75px;
+    border: 20px solid burlywood;
+    text-align: center;
+}
+
+#scoreArea {
+    position: fixed;
+    height:80%;
+    width:27%;
+    top:0px;
+    bottom:0px;
+    left:30px;
+    margin:auto;
+    background-color: forestgreen;
+    border-radius:75px;
+    border: 20px solid burlywood;
+}
+
+#roll{
+    position: absolute;
+    bottom:20px;
+    left:0px;
+    right:0px;
+    font-size: 40px;
+    margin: auto;
+}
+
+.holdbutton {
+    margin:28px;
+    font-size: 20px;   
+}
+#holdBox{
+    position: absolute;
+    bottom:175px;
+    left: 0px;
+    right:0px;
+    margin: auto;
+    text-align: center;    
+}
+
+.dice {
+    height:80px;
+    width:80px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    background-size: contain;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-image: url(4.png)
+}
+
+#diceBox {
+    position: absolute;
+    bottom: 250px;
+    left:0px;
+    right:0px;
+    margin: auto;
+}
+    
+#rollNumber {
+    font-size: 40px;
+}
+
+#upper, #lower{
+    font-size:20px;
+    text-align: center;
+    width:100%;
+}
+
